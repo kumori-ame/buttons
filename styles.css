@@ -60,6 +60,26 @@ h1{
     border-radius: 5px;
     transition: background-color 0.05s;
 }
+#button-3{
+    color: #444444;
+    font-size: 3rem;
+    margin: 20px;
+    padding: 2px 10px;
+    outline: solid;
+    border:solid;
+    border-width: 0.3rem;
+    border-color: #fff #999999 #999999 #fff;
+    border-radius: 5px;
+    background-color: #ddd;
+    
+}
+#button-3:active{
+    background-color: #ddd;
+    border:solid;
+    border-width: 0.3rem;
+    border-color: #999999 #fff #fff #999999;
+    transition: background-color 0.05s;
+}
 ::selection{
     background-color: transparent;
 }
