@@ -24,6 +24,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #button-1{
     font-size: 3rem;
@@ -33,7 +34,6 @@ h1{
     border-width: 0 0.2rem 0.2rem 0;
     border-radius: 5px;
     background-color: #eeeeee;
-    
 }
 #button-1:active{
     background-color: #aaaaaa;
@@ -51,7 +51,6 @@ h1{
     border-width: 0 0.2rem 0.2rem 0;
     border-radius: 5px;
     background-color: #eeeeee;
-    
 }
 #button-2:active{
     background-color: #aaaaaa;
@@ -71,7 +70,6 @@ h1{
     border-color: #fff #999999 #999999 #fff;
     border-radius: 5px;
     background-color: #ddd;
-    
 }
 #button-3:active{
     background-color: #ddd;
@@ -79,6 +77,33 @@ h1{
     border-width: 0.3rem;
     border-color: #999999 #fff #fff #999999;
     transition: background-color 0.05s;
+}
+#button-4{
+    color: #444444;
+    font-size: 3rem;
+    margin: 20px;
+    padding: 40px;
+    width:100px;
+    height:100px;
+    outline: solid;
+    border:solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0.3rem;
+    border-color: #ddd;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#button-4:active{
+    background-color: #ddd;
+    border:solid;
+    border-width: 0.3rem;
+    border-color: #fff;
+    transition: background-color 0.05s;
+}
+div #space{
+    width:100%;
 }
 ::selection{
     background-color: transparent;
