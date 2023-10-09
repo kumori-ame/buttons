@@ -163,6 +163,34 @@ h1{
 #button-6:active p{
     transform: translate(1.5px,2px);
 }
+#button-7{
+    color: #444444;
+    font-size: 3rem;
+    margin: 20px;
+    padding: 20px 50px;
+    width:70px;
+    height:50px;
+    border:solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0.3rem;
+    border-color:#fff #ddd #ddd #fff;
+    border-radius: 25%;
+    background-color: #eeeeee;
+}
+#button-7:active{
+    position: relative;
+    background-color: #bbb;
+    border:solid;
+    border-width: 0.3rem;
+    border-color: #aaa #bbb  #bbb #aaa;
+    transition: background-color 0.05s;
+}
+#button-7:active p{
+    transform: translate(1.5px,2px);
+    color: #222;
+}
 div #space{
     width:100%;
 }
